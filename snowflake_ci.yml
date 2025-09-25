@@ -1,6 +1,11 @@
 SNOWFLAKE_CONN_ID: "snowflake_connection"
-SNOWFLAKE_SCHEMA: "TEST_DEV_DB.TEST_SCHEMA"
 OWNER: "data_engineering"
+SNOWFLAKE_SCHEMA:
+  - "file_formats"
+  - "model"
+  - "stages"
+  - "tables"
+  - "views"
 PARAMS:
   - 'r2'
   - 'p2'
