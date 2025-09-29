@@ -1,11 +1,7 @@
 SNOWFLAKE_CONN_ID: "snowflake_connection"
 OWNER: "data_engineering"
 SCHEMAS:
-  - "file_formats"
-  - "model"
-  - "stages"
-  - "tables"
-  - "views"
+  - "CI"
 PARAMS:
   - 'r2'
   - 'p2'
