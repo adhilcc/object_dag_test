@@ -1,6 +1,6 @@
 SNOWFLAKE_CONN_ID: "snowflake_connection"
 OWNER: "data_engineering"
-SNOWFLAKE_SCHEMA:
+SCHEMAS:
   - "file_formats"
   - "model"
   - "stages"
